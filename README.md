@@ -1,4 +1,3 @@
-# dotfiles
 ## Current configurations
 ### Vsc
 settings.json : Contains preferences relating to font,fontsize,theme,and other extension settings.
