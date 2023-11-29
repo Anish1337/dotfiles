@@ -1,4 +1,7 @@
-## Current configurations
+# Current configurations
+
+## Editors
+
 ### Vsc
 settings.json : Preferences relating to font,fontsize,theme,and other extension settings for visual studio code.  
 
@@ -6,6 +9,14 @@ settings.json : Preferences relating to font,fontsize,theme,and other extension 
 Custom: : Customizing neovim  
 LunarVim : Base install  
 Nvchad : Setup for C++
+
+## Terminals
+### Kitty
+
+
+### Alacritty
+
+### ohmyzsh
 
 
 
