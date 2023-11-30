@@ -1,5 +1,3 @@
-# Current configurations
-
 ## Terminals
 ### Bash
 * Keybinds for Github commands.
@@ -15,7 +13,7 @@
 * settings.json : Preferences relating to font,fontsize,theme,and other extension settings for visual studio code.  
 
 ### Neovim  
-* Custom: : Customizing neovim  
+* Custom: : Personal neovim from scratch 
 * LunarVim : Base install  
 * Nvchad : Setup for C++
 
