@@ -8,9 +8,9 @@
 ## Code Editors
 
 ### Visual Studio Code
-* settings.json : font, fontsize, theme, etc.
+* settings.json : font, fontsize, theme, etc
 
 ### Neovim  
 * Custom: : Personal neovim from scratch 
-* LunarVim : Base install  
+* LunarVim : Lunarvim profile setup for Python
 * Nvchad : Nvchad profile setup for C++
