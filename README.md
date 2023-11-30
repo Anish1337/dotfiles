@@ -11,6 +11,6 @@
 * settings.json : font, fontsize, theme, etc
 
 ### Neovim  
-* Custom: : Personal neovim from scratch 
+* Custom : Personal neovim from scratch 
 * LunarVim : Lunarvim profile setup for Python
 * Nvchad : Nvchad profile setup for C++
