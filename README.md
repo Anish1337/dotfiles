@@ -4,7 +4,7 @@
 
 ### Kitty
 * Changed cursor to bright green (00FF00)
-* 
+
 ## Code Editors
 
 ### Vsc
