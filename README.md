@@ -9,7 +9,7 @@
 
 ### Vsc
 * settings.json : font,fontsize,theme,and other extension settings for visual studio code.
-* 
+
 ### Neovim  
 * Custom: : Personal neovim from scratch 
 * LunarVim : Base install  
