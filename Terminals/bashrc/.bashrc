@@ -9,7 +9,7 @@ alias v='nvim'
 alias ts='~/dotfiles/scripts/snapshot.sh'
 alias matrix='cmatrix'
 alias wifi='nmtui'
-
+alias theme='~/.config/waybar/themeswitcher.sh'
 #
 # UPDATING GITHUB FILES
 #
