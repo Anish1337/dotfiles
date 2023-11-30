@@ -11,12 +11,14 @@ LunarVim : Base install
 Nvchad : Setup for C++
 
 ## Terminals
-### Kitty
+### Bash
+* Keybinds for Github commands.
 
+### Kitty
+* Changed cursor to bright green (00FF00)
 
 ### Alacritty
 
-### ohmyzsh
 
 
 
