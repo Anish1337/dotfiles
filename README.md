@@ -1,18 +1,14 @@
 ## Terminals
 ### Bash
-* Keybinds for
-  * Github commands
-  * Common Files paths
-  * Common linux commands  
+* Setup custom keybinds  
 
 ### Kitty
-* Changed cursor to bright green (00FF00)
-* Set opacity (40%)
+* Custom colorscheme, opacity, more keybinds
 
 ## Code Editors
 
-### Vsc
-* settings.json : font,fontsize,theme,and other extension settings for visual studio code
+### Visual Studio Code
+* settings.json : font, fontsize, theme, etc.
 
 ### Neovim  
 * Custom: : Personal neovim from scratch 
