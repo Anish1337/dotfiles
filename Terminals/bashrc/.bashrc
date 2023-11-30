@@ -54,7 +54,7 @@ eval "$(starship init bash)"
 # PFETCH
 # -----------------------------------------------------
 echo ""
-pfetch
+neofetch --ascii ~/.config/neofetch/arch
 
 #
 # Git shortcut
