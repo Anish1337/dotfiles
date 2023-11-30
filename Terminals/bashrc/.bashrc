@@ -1,5 +1,5 @@
 #-----------------------------------------------------
-# ALIASES
+# BASIC COMMANDS
 # ----------------------------------------------------
 alias c='clear'
 alias nf='neofetch'
@@ -10,15 +10,27 @@ alias ts='~/dotfiles/scripts/snapshot.sh'
 alias matrix='cmatrix'
 alias wifi='nmtui'
 
-alias uk='cp ~/.config/kitty/kitty.conf ~/GitHub/Personal/dotfiles/kitty/'
-alias ub='cp ~/.bashrc ~/GitHub/Personal/dotfiles/bashrc/'
+#
+# UPDATING GITHUB FILES
+#
+alias uk='cp ~/.config/kitty/kitty.conf ~/GitHub/Personal/dotfiles/Terminals/kitty/'
+alias ub='cp ~/.bashrc ~/GitHub/Personal/dotfiles/Terminals/bashrc/'
+
+
+#
+# EDIT DOTFILES
+#
 alias bash='nvim ~/.bashrc'
+
+#
+# FILE NAVIGATION
+#
 alias code='cd ~/GitHub/Personal/practice/Leetcode/Arrays_Strings/'
 alias dot='cd ~/GitHub/Personal/dotfiles/'
 alias g='cd ~/GitHub/Personal/'
 
 # -----------------------------------------------------
-# GIT
+# GITHUB
 # -----------------------------------------------------
 alias gs="git status"
 alias ga="git add"
