@@ -1,8 +1,9 @@
+<details>
 ## Desktop Environment
 ### Hyprland
 ### Neofetch
 ### Waybar
-
+</details>
 ## Terminals
 ### Bash
 * Setup custom keybinds  
