@@ -6,22 +6,46 @@
 This is how you dropdown.
 </details>
 
-### Neofetch
-### Waybar
+<details>
+
+<summary>Neofetch</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>Waybar</summary>
+<br>
+This is how you dropdown.
+</details>
 
 ## Terminals
-### Bash
-* Setup custom keybinds  
+<details>
+<summary>Bash</summary>
+<br>
+This is how you dropdown.
+</details>  
 
-### Kitty
-* Custom colorscheme, opacity, more keybinds
+<details>
+<summary>Kitty</summary>
+<br>
+This is how you dropdown.
+</details>
 
 ## Code Editors
 
-### Visual Studio Code
-* settings.json : font, fontsize, theme, etc
+<details>
+<summary>Visual studio code</summary>
+<br>
+This is how you dropdown.
+</details>
 
-### Neovim  
+
+<details>
+<summary>Hyprland</summary>
+<br>
+This is how you dropdown.
 * Custom : Personal neovim from scratch 
 * LunarVim : Lunarvim profile setup for Python
 * Nvchad : Nvchad profile setup for C++
+</details>
