@@ -1,6 +1,11 @@
 ## Desktop Environment
-<Hyprland>
-</Hyprland>
+
+<details>
+<summary>Hyprland</summary>
+<br>
+This is how you dropdown.
+</details>
+
 ### Neofetch
 ### Waybar
 
