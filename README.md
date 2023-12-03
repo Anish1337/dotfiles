@@ -3,20 +3,20 @@
 <details>
 <summary>Hyprland</summary>
 <br>
-* Modified https://gitlab.com/stephan-raabe/dotfiles template base hyprland install.
+* Modified from [Stephen Raabe's dotfiles](https://gitlab.com/stephan-raabe/dotfiles) and [youtube video]().
 </details>
 
 <details>
 
 <summary>Neofetch</summary>
 <br>
-This is how you dropdown.
+* Modified from []()
 </details>
 
 <details>
 <summary>Waybar</summary>
 <br>
-This is how you dropdown.
+* Modified from [Ruixi's dotfiles](https://github.com/Ruixi-rebirth/sway-dotfiles/tree/main)
 </details>
 
 ## Terminals
@@ -46,6 +46,6 @@ This is how you dropdown.
 <br>
 This is how you dropdown.
 * Custom : Personal neovim from scratch 
-* LunarVim : Lunarvim profile setup for Python
-* Nvchad : Nvchad profile setup for C++
+* LunarVim : Lunarvim profile setup for Python, base install [website here]()
+* Nvchad : Nvchad profile setup for C++ based on [Dreams of code]() channel youtube video.
 </details>
