@@ -1,7 +1,7 @@
 ## Desktop Environment
-## Hyprland
-## Neofetch
-## Waybar
+### Hyprland
+### Neofetch
+### Waybar
 
 ## Terminals
 ### Bash
