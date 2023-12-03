@@ -3,7 +3,7 @@
 <details>
 <summary>Hyprland</summary>
 <br>
-This is how you dropdown.
+* Modified https://gitlab.com/stephan-raabe/dotfiles template base hyprland install.
 </details>
 
 <details>
