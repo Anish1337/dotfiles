@@ -37,15 +37,15 @@ This is how you dropdown.
 <details>
 <summary>Visual studio code</summary>
 <br>
-This is how you dropdown.
+json files contains preferneces for colorscheme,font , and other extension settings
 </details>
 
 
 <details>
-<summary>Hyprland</summary>
+<summary>Neovim</summary>
 <br>
-This is how you dropdown.
-* Custom : Personal neovim from scratch 
-* LunarVim : Lunarvim profile setup for Python, base install [website here]()
-* Nvchad : Nvchad profile setup for C++ based on [Dreams of code]() channel youtube video.
+Features  
+  Treesitter  
+  Telescope  
+  Lazy plguin manager  
 </details>
