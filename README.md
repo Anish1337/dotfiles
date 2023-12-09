@@ -37,15 +37,12 @@ This is how you dropdown.
 <details>
 <summary>Visual studio code</summary>
 <br>
-json files contains preferneces for colorscheme,font , and other extension settings
+json file contains preferneces for colorscheme, font, and other extension settings
 </details>
 
 
 <details>
 <summary>Neovim</summary>
 <br>
-Features  
-  Treesitter  
-  Telescope  
-  Lazy plguin manager  
+Treesitter, Telescope, Lazy Plugin Manager, Colorschemes
 </details>
