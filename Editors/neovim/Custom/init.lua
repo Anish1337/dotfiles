@@ -2,6 +2,7 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.cmd("set number")
 vim.g.mapleader = " "
 
 -- Lazy nvim setup
@@ -69,7 +70,7 @@ local builtin = require("telescope.builtin")
 -- Treesitter
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua","python","c","javascript","cpp","markdown","html","latex"},
+  ensure_installed = {"lua","python","c","javascript","cpp","markdown","html","latex","javascript"},
   highlight = { enable = true },
   indent = { enable = true },
 })
@@ -81,4 +82,3 @@ vim.cmd[[colorscheme tokyonight]]
 -- Keyboard shortcuts
 vim.keymap.set('n','<C-p>',builtin.find_files, {})
 vim.keymap.set('n','<leader>fg',builtin.live_grep, {})
-
