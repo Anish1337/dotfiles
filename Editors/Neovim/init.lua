@@ -70,11 +70,10 @@ local builtin = require("telescope.builtin")
 -- Treesitter
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua","python","c","javascript","cpp","markdown","html","latex","javascript"},
+  ensure_installed = {"lua","python","c","javascript","cpp","markdown","html","latex"},
   highlight = { enable = true },
   indent = { enable = true },
 })
-
 
 -- Default colorscheme
 vim.cmd[[colorscheme tokyonight]]
