@@ -82,6 +82,8 @@ vim.cmd[[colorscheme tokyonight]]
 vim.keymap.set('n','<C-p>',builtin.find_files, {})
 vim.keymap.set('n','<leader>fg',builtin.live_grep, {})
 
+-- Discord rich presence
+
 -- The setup config table shows all available config options with their default values:
 require("presence").setup({
     -- General options
