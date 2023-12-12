@@ -43,6 +43,8 @@ json file contains preferneces for colorscheme, font, and other extension settin
 
 <details>
 <summary>Neovim</summary>
-<br>
-Treesitter, Telescope, Lazy Plugin Manager, Colorschemes
+
+Features
+
+Treesitter\ Telescope\ Lazy Plugin Manager\ Colorschemes(tokyo night, catpuccin), Discord Rich Presence
 </details>
