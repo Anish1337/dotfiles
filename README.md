@@ -1,4 +1,14 @@
-## Desktop Environment
+## Desktop Environment  
+## Neovim
+<details>
+<summary>Neovim</summary>
+<b>Features</b>  
+Treesitter  
+Telescope  
+Lazy Plugin Manager  
+Colorschemes(Tokyo night, Catpuccin)  
+Discord Rich Presence  
+</details>
 
 <details>
 <summary>Hyprland</summary>
@@ -30,25 +40,4 @@ This is how you dropdown.
 <summary>Kitty</summary>
 <br>
 This is how you dropdown.
-</details>
-
-## Code Editors
-
-<details>
-<summary>Visual studio code</summary>
-<br>
-json file contains preferneces for colorscheme, font, and other extension settings
-</details>
-
-
-<details>
-<summary>Neovim</summary>
-
-<b>Features</b>  
-Treesitter  
-Telescope  
-Lazy Plugin Manager  
-Colorschemes(Tokyo night, Catpuccin)  
-Discord Rich Presence  
-
 </details>
