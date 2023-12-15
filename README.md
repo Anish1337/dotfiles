@@ -5,7 +5,7 @@
 [Lualine](https://github.com/nvim-lualine/lualine.nvim):  
 [Lazy Plugin Manager](https://github.com/folke/lazy.nvim):    
 [Discord Rich Presence](https://github.com/andweeb/presence.nvim):  
-
+![alt text](http://url/to/img.png)
 
 
 ## Terminals
