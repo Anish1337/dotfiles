@@ -1,31 +1,13 @@
-## Desktop Environment  
 ## Neovim
 <details>
 <summary>Neovim</summary>
 <b>Features</b>  
-Treesitter  
-Telescope  
-Lazy Plugin Manager  
-Colorschemes(Tokyo night, Catpuccin)  
-Discord Rich Presence  
-</details>
-
-<details>
-<summary>Hyprland</summary>
-<br>
-
-</details>
-
-<details>
-
-<summary>Neofetch</summary>
-<br>
-
-</details>
-
-<details>
-<summary>Waybar</summary>
-<br>
+Treesitter: 
+Telescope:
+Lualine:
+Lazy Plugin Manager:  
+Colorschemes: Tokyo night, Catpuccin  
+Discord Rich Presence:
 
 </details>
 
