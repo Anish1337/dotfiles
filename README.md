@@ -1,6 +1,4 @@
 ## Neovim
-<details>
-<summary>Neovim</summary>
 <b>Features</b>  
 Treesitter: 
 Telescope:
@@ -9,7 +7,7 @@ Lazy Plugin Manager:
 Colorschemes: Tokyo night, Catpuccin  
 Discord Rich Presence:
 
-</details>
+
 
 ## Terminals
 <details>
