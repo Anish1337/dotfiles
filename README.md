@@ -1,11 +1,11 @@
 ## Neovim
 <b>Features</b>  
-Treesitter: 
-Telescope:
-Lualine:
+Treesitter:  
+Telescope:  
+Lualine:  
 Lazy Plugin Manager:  
 Colorschemes: Tokyo night, Catpuccin  
-Discord Rich Presence:
+Discord Rich Presence:  
 
 
 
