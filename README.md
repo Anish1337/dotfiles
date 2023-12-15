@@ -1,11 +1,4 @@
 ## Neovim  
-
-<details>
-<summary>How do I dropdown?</summary>
-<br>
-### Preview
-![nvim-preview](https://github.com/Anish1337/dotfiles/assets/15726203/fff05a7e-caeb-42c5-aad0-06bbd8654f4b)  
-</details>
 ### Preview
 ![nvim-preview](https://github.com/Anish1337/dotfiles/assets/15726203/fff05a7e-caeb-42c5-aad0-06bbd8654f4b)  
 
