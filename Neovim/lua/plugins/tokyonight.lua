@@ -20,5 +20,5 @@ return
       colors.error = "#ff0000"
     end
 })
-    end   
+    end
 }
