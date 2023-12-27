@@ -7,7 +7,7 @@
 [Lualine](https://github.com/nvim-lualine/lualine.nvim): Blazingly fast statusbar.  
 [Lazy](https://github.com/folke/lazy.nvim): Modern plugin manager.    
 [Discord Rich Presence](https://github.com/andweeb/presence.nvim): Displays status on discord.  
-[Mason](https://github.com/williamboman/mason.nvim): Portable manager for LSP's.
+[Mason](https://github.com/williamboman/mason.nvim): Portable manager for LSP's.  
 [None-ls](https://github.com/nvimtools/none-ls.nvim): Formatting LSP for code.
 
 ## Terminals
