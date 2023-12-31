@@ -10,12 +10,17 @@
 [Mason](https://github.com/williamboman/mason.nvim): Portable manager for LSP's.  
 [None-ls](https://github.com/nvimtools/none-ls.nvim): Formatting LSP for code.  
 [Luasnip](https://github.com/L3MON4D3/LuaSnip): Autocomplete for lua files and all LSP's.  
-[Alpha](https://github.com/goolord/alpha-nvim): Aesthetic home page with ascii art and keyboard shortcuts.
+[Alpha](https://github.com/goolord/alpha-nvim): Aesthetic home page with ascii art and keyboard shortcuts.  
 ## Terminals
 
 ### Bash  
 
 ### Kitty  
+
+
+## Linux  
+### Waybar  
+### Neofetch  
 
 
 
