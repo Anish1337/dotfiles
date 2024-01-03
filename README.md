@@ -20,6 +20,18 @@
 
 ## Linux  
 ### Waybar  
+A basic waybar implementation:  
+* Workspace
+* Current window
+* Time
+* Settings
+* Arch updates
+* Brightness
+* Volume
+* Tempreture (Laptop)
+* Battery
+* Log out/Power off
+
 ### Neofetch  
 
 
