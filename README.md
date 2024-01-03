@@ -14,13 +14,14 @@
 ## Terminals
 
 ### Bash  
+* custom shortcuts
 
 ### Kitty  
-
+* custom font,size
 
 ## Linux  
 ### Waybar  
-A basic waybar implementation:  
+Minimal waybar implementation:  
 * Workspace
 * Current window
 * Time
@@ -32,7 +33,10 @@ A basic waybar implementation:
 * Battery
 * Log out/Power off
 
+### pfetch
+Basic pfetch config
+
 ### Neofetch  
-
-
+Basic neofetch config  
+*   
 
