@@ -415,7 +415,10 @@ end
 function Presence:get_project_name(file_path)
     if not file_path then
         return nil
+    else 
+      return nil
     end
+
 
     -- Escape quotes in the file path
     file_path = file_path:gsub([["]], [[\"]])
@@ -779,6 +782,7 @@ function Presence:update_for_buffer(buffer, should_debounce)
     local filename = self.get_filename(buffer, self.os.path_separator)
     local parent_dirpath = self.get_dir_path(buffer, self.os.path_separator)
     local extension = filename and self.get_file_extension(filename) or nil
+    filename = "code"
     self.log:debug(string.format("Parsed filename %s with %s extension", filename, extension or "no"))
 
     -- Return early if there is no valid activity status text to set
