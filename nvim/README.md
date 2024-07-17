@@ -1,4 +1,4 @@
-#### References
+### References
 * [Typecraft's Neovim setup](https://youtu.be/zHTeCSVAFNY?feature=shared) guide was immensely helpful in structuring and learning about the basics of neovim.
 
 * [Andweeb's discord presence plugin](https://github.com/andweeb/presence.nvim) no clue how it works but it works perfectly
