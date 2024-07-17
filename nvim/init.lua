@@ -12,30 +12,14 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
-
 local opts = {}
 
 -- Configs
 require("vim-opts")
 require("lazy").setup("plugins")
 
-vim.cmd[[colorscheme tokyonight]]
-
-
--- LaTeX
-
-
-
-
-
-
-
-
-
-
-
-
+vim.cmd[[colorscheme gruvbox]]
+--vim.cmd[[colorscheme tokyonight]]
 
 
 
