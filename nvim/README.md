@@ -6,3 +6,10 @@
 * [SeniorMars dotfiles](https://github.com/SeniorMars/dotfiles/tree/main) For the dark gruvbox theme
 
 * [Kyren233's theme](https://github.com/Kyren223/dotfiles/blob/master/.config/nvim/lua/custom/plugins/alpha.lua) For the nvim start up page
+
+### Preview
+![preview](https://github.com/user-attachments/assets/b7782f17-d5eb-4caf-9f56-d9b8f2aec87a)
+
+### Features
+
+### To Add
