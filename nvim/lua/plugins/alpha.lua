@@ -1,3 +1,4 @@
+
 return {
 
 	"goolord/alpha-nvim",
@@ -33,11 +34,12 @@ return {
 		_Gopts = {
 			position = "center",
 			hl = "Type",
-			-- wrap = "overflow";
+			--wrap = "overflow";
 		}
-
+   dashboard.section.buttons.val = {
+}
 		local function footer()
-			return ""
+			return "Welcome, 4nish"
 		end
 
 		dashboard.section.footer.val = footer()

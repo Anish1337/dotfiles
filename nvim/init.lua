@@ -22,7 +22,25 @@ require("lazy").setup("plugins")
 
 vim.cmd[[colorscheme tokyonight]]
 
--- Discord rich presence
+
+-- LaTeX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Discord
 
 -- The setup config table shows all available config options with their default values:
 require("presence").setup({
