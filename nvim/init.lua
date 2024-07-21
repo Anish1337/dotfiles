@@ -18,9 +18,9 @@ local opts = {}
 require("vim-opts")
 require("lazy").setup("plugins")
 
-vim.cmd[[colorscheme gruvbox]]
---vim.cmd[[colorscheme tokyonight]]
-
+--vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[colorscheme tokyodark]]
+--vim.cmd[[colorscheme cyberdream]]
 
 
 
