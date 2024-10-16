@@ -18,9 +18,8 @@ local opts = {}
 require("vim-opts")
 require("lazy").setup("plugins")
 
-vim.cmd[[colorscheme tokyonight-night]]
---vim.cmd[[colorscheme tokyodark]]
---vim.cmd[[colorscheme cyberdream]]
+-- Color scheme
+vim.cmd[[colorscheme gruvbox]]
 
 --Toggle term
  vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
