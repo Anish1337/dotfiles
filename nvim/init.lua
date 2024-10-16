@@ -19,12 +19,12 @@ require("vim-opts")
 require("lazy").setup("plugins")
 
 -- Color scheme
-vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[colorscheme catppuccin]]
 
 --Toggle term
  vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
 
--- Discord
+-- Discord Stuff
 -- The setup config table shows all available config options with their default values:
 require("presence").setup({
     -- General options
