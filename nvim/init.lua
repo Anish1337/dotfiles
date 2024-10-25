@@ -19,7 +19,7 @@ require("vim-opts")
 require("lazy").setup("plugins")
 
 -- Color scheme
-vim.cmd[[colorscheme catppuccin]]
+vim.cmd[[colorscheme dracula]]
 
 --Toggle term
  vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
