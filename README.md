@@ -1,1 +1,1 @@
-* Picture goes here
+* Linux picture goes here
