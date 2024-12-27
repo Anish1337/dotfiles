@@ -19,11 +19,13 @@ require("vim-opts")
 require("lazy").setup("plugins")
 
 -- Color scheme
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme gruvbox-material]]
+-- 
 
 --Toggle term
- vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
+vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
 
+--
 -- Discord Stuff
 -- The setup config table shows all available config options with their default values:
 require("presence").setup({
