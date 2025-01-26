@@ -19,7 +19,7 @@ require("vim-opts")
 require("lazy").setup("plugins")
 
 -- Color scheme
-vim.cmd[[colorscheme gruvbox-material]]
+vim.cmd[[colorscheme tokyonight]]
 -- 
 
 --Toggle term

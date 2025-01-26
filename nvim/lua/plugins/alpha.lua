@@ -22,7 +22,7 @@ return {
             return tostring(day) .. suffix
         end
 
-        local find_file_path = '$HOME'
+        local find_file_path = '.'
         local date = os.date('  %A, %B ') .. get_natural_day(tonumber(os.date('%d')))
         local plugins = '  ' .. require('lazy').stats().count .. ' plugins '
         local v = vim.version()
