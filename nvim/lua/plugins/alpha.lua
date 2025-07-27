@@ -1,68 +1,48 @@
 return {
-    'goolord/alpha-nvim',
-    dependencies = {
-        'nvim-tree/nvim-web-devicons',
-    },
-    config = function()
-        local alpha = require('alpha')
-        local dashboard = require('alpha.themes.dashboard')
 
-        local function get_natural_day(day)
-            local suffix = 'th'
-            local day_mod = day % 10
+	"goolord/alpha-nvim",
+	dependencies = {
+		"nvim-tree/nvim-web-devicons",
+	},
 
-            if day_mod == 1 and day ~= 11 then
-                suffix = 'st'
-            elseif day_mod == 2 and day ~= 12 then
-                suffix = 'nd'
-            elseif day_mod == 3 and day ~= 13 then
-                suffix = 'rd'
-            end
+	config = function()
+		local alpha = require("alpha")
+		local dashboard = require("alpha.themes.dashboard")
 
-            return tostring(day) .. suffix
-        end
+		dashboard.section.header.val = {
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                     ]],
+			[[       ████ ██████           █████      ██                     ]],
+			[[      ███████████             █████                             ]],
+			[[      █████████ ███████████████████ ███   ███████████   ]],
+			[[     █████████  ███    █████████████ █████ ██████████████   ]],
+			[[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
+			[[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
+			[[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+			[[                                                                       ]],
+		}
 
-        local find_file_path = '.'
-        local date = os.date('  %A, %B ') .. get_natural_day(tonumber(os.date('%d')))
-        local plugins = '  ' .. require('lazy').stats().count .. ' plugins '
-        local v = vim.version()
-        local version = '  v' .. v.major .. '.' .. v.minor .. '.' .. v.patch
-        local info_line = date .. plugins .. version
+		_Gopts = {
+			position = "center",
+			hl = "Type",
+			-- wrap = "overflow";
+		}
 
-        -- WARN: Just hardcoded the length of the first line in the header
-        local header_length = #'                                                                     '
-        local padding = (header_length - #info_line) / 2
-        info_line = string.rep(' ', padding) .. info_line
+		local function footer()
+			return ""
+		end
 
-        dashboard.section.header.val = {
-            [[                                                                     ]],
-            [[       ████ ██████           █████  ██ ██                     ]],
-            [[      ███████████             █████ ███                          ]],
-            [[      █████████ ███████████████████ ███   ███████████   ]],
-            [[     █████████  ███    █████████████ █████ ██████████████   ]],
-            [[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
-            [[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
-            [[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
-            [[                                                                       ]],
-            info_line,
-        }
+		dashboard.section.footer.val = footer()
 
-        dashboard.section.buttons.opts.spacing = 0
-        dashboard.section.buttons.val = {
-            dashboard.button('e', '  > New file', '<cmd>ene <BAR> startinsert<cr>'),
-            dashboard.button('w', '  > Find file', '<cmd>cd ' .. find_file_path .. ' | Telescope find_files<cr>'),
-            dashboard.button('r', '  > Recent', '<cmd>Telescope oldfiles<cr>'),
-            dashboard.button('c', '  > Configuration', '<cmd>e $MYVIMRC<cr> | <cmd>cd %:p:h<cr>'),
-            dashboard.button(
-                's',
-                '󱎠  > Last Session',
-                '<cmd>lua require("auto-session.session-lens.actions").alternate_session()<cr>'
-            ),
-            dashboard.button('q', '󰈆  > Quit NVIM', '<cmd>qa<cr>'),
-        }
-
-        dashboard.section.footer.val = require('alpha.fortune')()
-
-        alpha.setup(dashboard.opts)
-    end,
+		dashboard.opts.opts.noautocmd = true
+		alpha.setup(dashboard.opts)
+	end,
 }
