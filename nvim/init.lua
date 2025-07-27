@@ -12,19 +12,30 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
-
 local opts = {}
 
 -- configs
 require("vim-opts")
 require("lazy").setup("plugins")
 
+<<<<<<< HEAD
 -- colors
 vim.o.background = "dark"
+=======
+-- Color scheme
+>>>>>>> 61bf42f7e98c450b33fdaa164a2c956800c62024
 vim.cmd[[colorscheme tokyonight]]
+-- 
 
+<<<<<<< HEAD
 -- Discord rich presence
+=======
+--Toggle term
+vim.keymap.set('n','<leader>t',':ToggleTerm<CR>')
+
+--
+-- Discord Stuff
+>>>>>>> 61bf42f7e98c450b33fdaa164a2c956800c62024
 -- The setup config table shows all available config options with their default values:
 require("presence").setup({
     -- General options

@@ -1,69 +1,24 @@
-#-----------------------------------------------------
-# BASIC COMMANDS
-# ----------------------------------------------------
+#
+# ~/.bashrc
+#
+
+# neofetch
+neofetch
+
+# Custom shortcuts
 alias c='clear'
-alias nf='neofetch'
-alias pf='pfetch'
 alias shutdown='systemctl poweroff'
-alias v='nvim'
-alias ts='~/dotfiles/scripts/snapshot.sh'
-alias matrix='cmatrix'
-alias wifi='nmtui'
-alias theme='~/.config/waybar/themeswitcher.sh'
-#
-# UPDATING GITHUB FILES
-#
-alias uk='cp ~/.config/kitty/kitty.conf ~/GitHub/Personal/dotfiles/Terminals/kitty/'
-alias ub='cp ~/.bashrc ~/GitHub/Personal/dotfiles/Terminals/bashrc/'
-
-
-#
-# EDIT DOTFILES
-#
 alias bash='nvim ~/.bashrc'
+alias wifi='nmtui'
+alias hypr='nvim ~/.config/hypr/hyprland.conf'
+alias practice='cd ~/github/practice'
+alias dots='cd ~/github/dotfiles'
 
-#
-# FILE NAVIGATION
-#
-alias code='cd ~/GitHub/Personal/practice/Leetcode/Arrays_Strings/'
-alias dot='cd ~/GitHub/Personal/dotfiles/'
-alias g='cd ~/GitHub/Personal/'
+# git shortcuts
 
-# -----------------------------------------------------
-# GITHUB
-# -----------------------------------------------------
-alias gs="git status"
-alias ga="git add"
-alias gc="git commit -am"
-alias gp="git push"
-alias gpl="git pull"
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
-# -----------------------------------------------------
-# EDIT NOTES
-# -----------------------------------------------------
-alias notes='vim ~/notes.txt'
-
-
-# -----------------------------------------------------
-# START STARSHIP
-# -----------------------------------------------------
-eval "$(starship init bash)"
-
-
-# -----------------------------------------------------
-# PFETCH
-# -----------------------------------------------------
-echo ""
-neofetch --ascii ~/.config/neofetch/arch
-
-#
-# Git shortcut
-#
-#
-function submit() {
-    git add .
-    git commit -a -m "$1"
-    git push
-}
-
-export PATH=/home/anish/.local/bin:$PATH
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
