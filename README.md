@@ -1,1 +1,1 @@
-* Linux picture goes here
+![Demo](arch.gif)
