@@ -2,23 +2,25 @@
 # ~/.bashrc
 #
 
-# neofetch
-neofetch
+# Only continue for interactive shells
+[[ $- != *i* ]] && return
+
+# PATH
+export PATH="/opt/shader-slang-bin/bin:$HOME/.local/bin:$PATH"
+
+# Prompt
+PS1='[\u@\h \W]\$ '
+
+# Standard aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
 # Custom shortcuts
 alias c='clear'
 alias shutdown='systemctl poweroff'
-alias bash='nvim ~/.bashrc'
+alias brc='nvim ~/.bashrc'
 alias wifi='nmtui'
-alias hypr='nvim ~/.config/hypr/hyprland.conf'
-alias practice='cd ~/github/practice'
+alias hypr='nvim ~/.config/hypr/hyprland.lua'
 alias dots='cd ~/github/dotfiles'
 
-# git shortcuts
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+# Git shortcuts
