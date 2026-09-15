@@ -1,4 +1,4 @@
-![Demo](arch.png)
+![Demo](arch1.png)
 
 # Curr
 
