@@ -1,16 +1,12 @@
-![Demo](arch.gif)
+![Demo](arch.png)
+
 # Curr
+
 * **Top bar** : Waybar
 * **Terminal** : Alacritty
 * **Editor** : Neovim
 * **Desktop** : Hyprland
 
 # Next
-- [ ] file system (nautilus)
-- [ ] search
-- [ ] bashrc shortcuts
-- [ ] hermes agent
-- [ ] add nvim
 
-
-
+* [ ] add nvim file
