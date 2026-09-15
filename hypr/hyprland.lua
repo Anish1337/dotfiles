@@ -330,6 +330,12 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
+-- Screenshots (grim + slurp + wl-copy)
+-- F1: full screen | SHIFT+F1: region | SUPER+F1: active window
+hl.bind("F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh full"))
+hl.bind("SHIFT + F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh region"))
+hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh window"))
+
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
