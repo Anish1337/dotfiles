@@ -1,0 +1,44 @@
+/* Dracula Pro — lich void palette */
+@define-color fg        #F8F8F2;
+@define-color bglighter #393649;
+@define-color bglight   #2E2B3B;
+@define-color bg        #22212C;
+@define-color bgdark    #17161D;
+@define-color bgdarker  #0B0B0F;
+
+@define-color comment   #7970A9;
+@define-color selection #454158;
+@define-color subtle    #4B4760;
+
+@define-color cyan      #80FFEA;
+@define-color green     #8AFF80;
+@define-color orange    #FFCA80;
+@define-color pink      #FF80BF;
+@define-color purple    #9580FF;
+@define-color red       #FF9580;
+@define-color yellow    #FFFF80;
+
+/* semantic aliases for style.css */
+@define-color crust     @bgdarker;
+@define-color mantle    @bgdark;
+@define-color base      @bg;
+@define-color surface0  @bglight;
+@define-color surface1  @bglighter;
+@define-color surface2  @selection;
+@define-color overlay0  @comment;
+@define-color overlay1  @subtle;
+@define-color overlay2  @comment;
+@define-color text      @fg;
+@define-color subtext0  @comment;
+@define-color subtext1  @fg;
+
+@define-color rosewater @fg;
+@define-color flamingo  @red;
+@define-color mauve     @purple;
+@define-color maroon    @pink;
+@define-color peach     @orange;
+@define-color teal      @cyan;
+@define-color sky       @cyan;
+@define-color sapphire  @cyan;
+@define-color blue      @cyan;
+@define-color lavender  @purple;
