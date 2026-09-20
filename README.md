@@ -1,7 +1,7 @@
 # Curr
-* **Desktop** : Hyprland
-* **Terminal** : Alacritty
-* **Editor** : Neovim
+**Desktop** : Hyprland
+**Terminal** : Alacritty
+**Editor** : Neovim
 ![Demo](arch1.png)
 
 **Launcher** : Fuzzel
