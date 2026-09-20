@@ -6,7 +6,3 @@
 * **Terminal** : Alacritty
 * **Editor** : Neovim
 * **Desktop** : Hyprland
-
-# Next
-
-* [ ] add nvim file
