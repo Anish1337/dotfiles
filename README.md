@@ -1,6 +1,6 @@
 # Curr
-**Desktop** : Hyprland
-**Terminal** : Alacritty
+**Desktop** : Hyprland  
+**Terminal** : Alacritty  
 **Editor** : Neovim
 ![Demo](arch1.png)
 
