@@ -1,6 +1,6 @@
 ![Demo](arch1.png)
 
-![Fuzzel](fuzzel/fuzzel.png)
+![Fuzzel](fuzzel/fuzzel2.png)
 
 # Curr
 
