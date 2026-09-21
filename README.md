@@ -2,6 +2,8 @@
 
 ![Fuzzel](fuzzel/fuzzel2.png)
 
+![Waybar](waybar/waybar.png)
+
 # Curr
 
 * **Desktop** : Hyprland
