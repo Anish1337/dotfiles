@@ -11,6 +11,9 @@ bold = { family = "BigBlueTermPlus Nerd Font", style = "Regular" }
 italic = { family = "BigBlueTermPlus Nerd Font", style = "Regular" }
 size = 30
 
+[colors.primary]
+background = "#000000"
+
 [window]
 padding.x = 14
 padding.y = 14
