@@ -39,7 +39,7 @@ hl.monitor({
 	output = "DP-1",
 	mode = "2560x1440@144",
 	position = "1280x0",
-	scale = "1.25",
+	scale = "1",
 })
 ---------------------
 ---- MY PROGRAMS ----
@@ -122,8 +122,8 @@ hl.config({
 		rounding_power = 2,
 
 		-- Change transparency of focused and unfocused windows
-		active_opacity = 0.9,
-		inactive_opacity = 0.7,
+		active_opacity = 1,
+		inactive_opacity = 1,
 
 		shadow = {
 			enabled = true,

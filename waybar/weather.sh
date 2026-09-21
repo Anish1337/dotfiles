@@ -6,21 +6,20 @@ CACHE="${XDG_CACHE_HOME:-$HOME/.cache}/waybar-weather.json"
 URL="https://wttr.in/?format=j1"
 
 fetch() {
-    # -k: wttr.in LE cert has been expiring; skip verify so the bar still updates
-    curl -sfk --max-time 12 -A "waybar-weather" "$URL"
+  # -k: wttr.in LE cert has been expiring; skip verify so the bar still updates
+  curl -sfk --max-time 12 -A "waybar-weather" "$URL"
 }
 
 if ! raw="$(fetch)"; then
-    if [[ -f "$CACHE" ]]; then
-        cat "$CACHE"
-    else
-        printf '{"text":"󰖐  —","tooltip":"Weather unavailable"}\n'
-    fi
-    exit 0
+  if [[ -f "$CACHE" ]]; then
+    cat "$CACHE"
+  else
+    printf '{"text":"󰖐  —","tooltip":"Weather unavailable"}\n'
+  fi
+  exit 0
 fi
 
-out="$(
-    python3 - "$raw" <<'PY'
+out="$(python3 - "$raw" <<'PY'
 import json, sys
 data = json.loads(sys.argv[1])
 cur = data["current_condition"][0]

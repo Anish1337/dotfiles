@@ -1,4 +1,7 @@
-# 💤 LazyVim
+# Neovim (LazyVim)
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Personal Neovim config based on [LazyVim](https://github.com/LazyVim/LazyVim).
+
+Colorscheme: **Dracula Pro** (local under `colors/` / `autoload/`, gitignored).
+
+Extras: clangd, markdown, rust, neo-tree. Discord presence and smear-cursor enabled.
