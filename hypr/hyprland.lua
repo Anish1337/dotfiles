@@ -28,6 +28,7 @@
 --scale    = "auto",
 --})
 
+-- Laptop panel
 hl.monitor({
 	output = "eDP-1",
 	mode = "1920x1080@144",
@@ -35,6 +36,7 @@ hl.monitor({
 	scale = "1.5",
 })
 
+-- External ASUS monitor
 hl.monitor({
 	output = "DP-1",
 	mode = "2560x1440@144",
@@ -70,8 +72,17 @@ end)
 
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
 
-hl.env("XCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("XCURSOR_THEME", "catppuccin-mocha-lavender-cursors")
+hl.env("XCURSOR_SIZE", "40")
+hl.env("HYPRCURSOR_THEME", "catppuccin-mocha-lavender-cursors")
+hl.env("HYPRCURSOR_SIZE", "40")
+
+-- NVIDIA (RTX 3050 laptop) Wayland stability
+-- https://wiki.hypr.land/Nvidia/
+hl.env("LIBVA_DRIVER_NAME", "nvidia")
+hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
+hl.env("NVD_BACKEND", "direct")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
 
 -----------------------
 ----- PERMISSIONS -----
@@ -220,6 +231,16 @@ hl.config({
 	misc = {
 		force_default_wallpaper = -1, -- Set to 0 or 1 to disable the anime mascot wallpapers
 		disable_hyprland_logo = false, -- If true disables the random hyprland logo / anime girl background. :(
+		vrr = 0, -- VRR + NVIDIA external displays has caused compositor instability
+	},
+
+	-- Avoid NVIDIA hardware-cursor / DRM blit paths that destabilize aquamarine
+	cursor = {
+		no_hardware_cursors = true,
+	},
+
+	render = {
+		direct_scanout = false,
 	},
 })
 
