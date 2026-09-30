@@ -1,6 +1,6 @@
 #!/bin/bash
 
 while true; do
-    journalctl -b 0 --no-pager | rg -c 'BadTLP'
+    journalctl -b -f | rg BadTLP
     sleep 2
 done
