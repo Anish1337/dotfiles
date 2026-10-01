@@ -9,17 +9,17 @@
 
 window#waybar {
     background: transparent;
-    background-color: alpha(@bgdarker, 0.92);
-    color: @comment;
+    background-color: alpha(@bg, 0.88);
+    color: @moon;
     transition-property: background-color;
     transition-duration: 0.3s;
-    border-bottom: 1px solid alpha(@purple, 0.45);
+    border-bottom: 1px solid alpha(@purple, 0.35);
 }
 
 tooltip {
     background: @bgdark;
     color: @fg;
-    border: 1px solid alpha(@purple, 0.55);
+    border: 1px solid alpha(@purple, 0.45);
     border-radius: 0;
 }
 
@@ -31,7 +31,7 @@ tooltip label {
     margin: 8px;
     padding-left: 8;
     padding-right: 8;
-    color: @comment;
+    color: @moon;
 }
 
 button {
@@ -58,7 +58,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: alpha(@purple, 0.18);
+    background-color: alpha(@purple, 0.22);
     color: @purple;
     border-top: 2px solid @purple;
 }
