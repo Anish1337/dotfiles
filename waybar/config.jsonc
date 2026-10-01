@@ -32,14 +32,14 @@
   },
   "backlight": {
     "device": "nvidia_0",
-    "format": "<span foreground='#F1FA8C'>{icon}</span> {percent}%",
+    "format": "<span foreground='#BD93F9'>{icon}</span> {percent}%",
     "format-icons": ["󰃞", "󰃟", "󰃠"],
     "on-scroll-up": "brightnessctl set +5%",
     "on-scroll-down": "brightnessctl set 5%-",
     "tooltip": false
   },
   "clock": {
-    "format": "<span foreground='#FF79C6'>󰔛  </span>{:%a %d %H:%M}",
+    "format": "<span foreground='#BD93F9'>󰔛  </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "battery": {
@@ -47,21 +47,21 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "<span size='13000' foreground='#50FA7B'>{icon} </span> {capacity}%",
-    "format-warning": "<span size='13000' foreground='#FFB86C'>{icon} </span> {capacity}%",
-    "format-critical": "<span size='13000' foreground='#FF5555'>{icon} </span> {capacity}%",
-    "format-charging": "<span size='13000' foreground='#50FA7B'> </span>{capacity}%",
-    "format-plugged": "<span size='13000' foreground='#50FA7B'> </span>{capacity}%",
-    "format-alt": "<span size='13000' foreground='#50FA7B'>{icon} </span> {time}",
-    "format-full": "<span size='13000' foreground='#50FA7B'> </span>{capacity}%",
+    "format": "<span size='13000' foreground='#BD93F9'>{icon} </span> {capacity}%",
+    "format-warning": "<span size='13000' foreground='#BD93F9'>{icon} </span> {capacity}%",
+    "format-critical": "<span size='13000' foreground='#BD93F9'>{icon} </span> {capacity}%",
+    "format-charging": "<span size='13000' foreground='#BD93F9'> </span>{capacity}%",
+    "format-plugged": "<span size='13000' foreground='#BD93F9'> </span>{capacity}%",
+    "format-alt": "<span size='13000' foreground='#BD93F9'>{icon} </span> {time}",
+    "format-full": "<span size='13000' foreground='#BD93F9'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#8BE9FD'>  </span>{essid}",
-    "format-ethernet": "<span size='13000' foreground='#8BE9FD'>󰈁  </span>Ethernet",
+    "format-wifi": "<span size='13000' foreground='#BD93F9'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#BD93F9'>󰈁  </span>Ethernet",
     "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "<span size='13000' foreground='#FF5555'>  </span>Disconnected",
+    "format-disconnected": "<span size='13000' foreground='#BD93F9'>  </span>Disconnected",
     "tooltip-format-wifi": "Signal Strength: {signalStrength}%"
   },
   "pulseaudio": {

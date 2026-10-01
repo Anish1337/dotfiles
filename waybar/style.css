@@ -42,8 +42,8 @@ button {
 
 button:hover {
     background: inherit;
-    color: @pink;
-    border-top: 2px solid @pink;
+    color: @purple-dark;
+    border-top: 2px solid @purple-dark;
 }
 
 #workspaces button {
@@ -52,15 +52,15 @@ button:hover {
 }
 
 #workspaces button.focused {
-    background-color: alpha(@purple, 0.12);
-    color: @cyan;
-    border-top: 2px solid @cyan;
+    background-color: alpha(@purple-dark, 0.12);
+    color: @purple-dark;
+    border-top: 2px solid @purple-dark;
 }
 
 #workspaces button.active {
-    background-color: alpha(@purple, 0.22);
-    color: @purple;
-    border-top: 2px solid @purple;
+    background-color: alpha(@purple-dark, 0.22);
+    color: @purple-dark;
+    border-top: 2px solid @purple-dark;
 }
 
 #workspaces button.urgent {
@@ -93,8 +93,8 @@ button:hover {
 }
 
 #clock {
-    color: @pink;
-    border-bottom: 2px solid @pink;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #clock.date {
@@ -103,18 +103,18 @@ button:hover {
 }
 
 #pulseaudio {
-    color: @orange;
-    border-bottom: 2px solid @orange;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #network {
-    color: @cyan;
-    border-bottom: 2px solid @cyan;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #custom-weather {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #bluetooth {
@@ -123,19 +123,19 @@ button:hover {
 }
 
 #bluetooth.connected {
-    color: @cyan;
-    border-bottom: 2px solid @cyan;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #bluetooth.disabled,
 #bluetooth.off {
-    color: @comment;
-    border-bottom: 2px solid @comment;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #backlight {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #idle_inhibitor {
@@ -148,18 +148,18 @@ button:hover {
 }
 
 #battery {
-    color: @green;
-    border-bottom: 2px solid @green;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #battery.warning:not(.charging) {
-    color: @orange;
-    border-bottom: 2px solid @orange;
+    color: @purple;
+    border-bottom: 2px solid @purple;
 }
 
 #battery.critical:not(.charging) {
-    color: @red;
-    border-bottom: 2px solid @red;
+    color: @purple;
+    border-bottom: 2px solid @purple;
     animation-name: blink-critical;
     animation-duration: 1.2s;
     animation-timing-function: ease-in-out;
