@@ -17,14 +17,13 @@ return {
       show_time = false,
 
       -- Rich Presence text options (%s would insert the filename / project)
-      editing_text = "Coding",
-      file_explorer_text = "Browsing",
+      -- Rich Presence text
+      editing_text = "Editing %s",
+      file_explorer_text = "Browsing %s",
       git_commit_text = "Committing changes",
       plugin_manager_text = "Managing plugins",
-      reading_text = "Reading",
-      workspace_text = function()
-        return nil -- omit the workspace / project line
-      end,
+      reading_text = "Reading %s",
+      workspace_text = "Working on %s",
     })
 
     -- presence.nvim always puts the filename (or language label) into
