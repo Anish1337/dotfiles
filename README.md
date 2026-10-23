@@ -10,5 +10,8 @@
 **Top bar** : Waybar
 ![Waybar](waybar/waybar.png)
 
+**Cava** : Fuzzel
+![Cava](cava/cava.png)
+
 **Fetch** : Fastfetch
 
