@@ -1,0 +1,3 @@
+singleton ShellState ShellState.qml
+singleton SysStats SysStats.qml
+singleton SysStatus SysStatus.qml

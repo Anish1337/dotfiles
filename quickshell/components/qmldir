@@ -1,0 +1,6 @@
+Panel 1.0 Panel.qml
+IconButton 1.0 IconButton.qml
+Kv 1.0 Kv.qml
+SliderBar 1.0 SliderBar.qml
+StatMeter 1.0 StatMeter.qml
+ExpandSection 1.0 ExpandSection.qml
