@@ -1,1 +1,21 @@
 color=000000
+
+# Typing (was green)
+key-hl-color=a277e8
+caps-lock-key-hl-color=a277e8
+ring-color=5c4f7a
+
+# Cleared (was amber)
+ring-clear-color=3b82f6
+inside-clear-color=3b82f6c0
+text-clear-color=3b82f6
+
+# Verifying
+ring-ver-color=22c55e
+inside-ver-color=22c55ec0
+text-ver-color=22c55e
+
+# Wrong
+ring-wrong-color=ef4444
+inside-wrong-color=ef4444c0
+text-wrong-color=ef4444
