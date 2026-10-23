@@ -2,7 +2,6 @@
 **Desktop** : Hyprland  
 **Terminal** : Alacritty  
 **Editor** : Neovim
-![Demo](arch1.png)
 <img width="2551" height="1432" alt="image" src="https://github.com/user-attachments/assets/93b38ae8-74d8-4e1e-869d-32475bad39a0" />
 
 
