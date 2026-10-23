@@ -6,7 +6,7 @@
 [general]
 
 # Auto reload config if the configuration file has changed. 1 = on, 0 = off.
-; live-config = 0
+live-config = 1
 
 # Accepts only non-negative values.
 ; framerate = 60
@@ -283,18 +283,15 @@
 ; background = '#111111'
 ; foreground = '#33ffff'
 
-# Gradient mode, only hex defined colors are supported,
-# background must also be defined in hex or remain commented out. 1 = on, 0 = off.
-# You can define as many as 8 different colors. They range from bottom to top of the screen
-; gradient = 0
-; gradient_color_1 = '#59cc33'
-; gradient_color_2 = '#80cc33'
-; gradient_color_3 = '#a6cc33'
-; gradient_color_4 = '#cccc33'
-; gradient_color_5 = '#cca633'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
+# Cyan → lavender → violet (refined, theme-aligned)
+background = '#000000'
+gradient = 1
+gradient_color_1 = '#6ec6d4'
+gradient_color_2 = '#7eb6e6'
+gradient_color_3 = '#94a4f0'
+gradient_color_4 = '#aea0f0'
+gradient_color_5 = '#b888e6'
+gradient_color_6 = '#9560d4'
 
 # Horizontal is only supported on noncurses output.
 # Only one color will be calculated per bar.

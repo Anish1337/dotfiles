@@ -62,8 +62,9 @@ local menu = "hyprlauncher"
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function()
-	hl.exec_cmd("waybar")
+	hl.exec_cmd("qs -n -d")
 	hl.exec_cmd("hyprpaper")
+	hl.exec_cmd("waybar")
 end)
 
 -------------------------------
@@ -105,7 +106,6 @@ hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
 -----------------------
 ---- LOOK AND FEEL ----
 -----------------------
-
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
 	general = {
@@ -152,7 +152,7 @@ hl.config({
 	},
 
 	animations = {
-		enabled = true,
+		enabled = false, -- disabled to reduce sync flood / compositor load on NVIDIA
 	},
 })
 
@@ -253,7 +253,7 @@ hl.config({
 		kb_layout = "us",
 		kb_variant = "",
 		kb_model = "",
-		kb_options = "",
+		kb_options = "caps:none",
 		kb_rules = "",
 
 		follow_mouse = 1,
@@ -284,14 +284,17 @@ hl.device({
 ---------------------
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
-
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("pkill -SIGUSR1 waybar"))
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd("fuzzel"))
+-- Quickshell cyberdeck controls (fuzzel still installed; rebound from SUPER+Space)
+hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd("qs ipc -n call shell toggleLauncher"))
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("qs ipc -n call shell toggleSidebar"))
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("qs ipc -n call shell togglePowerMenu"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("swaylock"))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
@@ -363,6 +366,9 @@ hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true 
 hl.bind("F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh full"))
 hl.bind("SHIFT + F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh region"))
 hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh window"))
+
+-- Cycle wallpapers in ~/github/dots/wallpapers
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("~/.config/hypr/cycle-wallpaper.sh"))
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
