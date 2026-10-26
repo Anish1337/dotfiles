@@ -1,4 +1,8 @@
-# Curr
+# About
+A work in progress Arch Linux setup built around a minimal, purple-themed, spooky cyberpunk aesthetic.
+
+Inspired by Dracula, gothic horror, and retro-futuristic terminals. The goal is a dark, atmospheric desktop with muted violet accents, subtle neon highlights, and a terminal-centric workflow.
+
 **Distro/Desktop** : Arch/Hyprland  
 <img width="5760" height="2160" alt="arch" src="https://github.com/user-attachments/assets/480dfec2-b76a-4a95-bc77-2334f9d72f5b" />
 
